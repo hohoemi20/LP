@@ -79,22 +79,12 @@ img {
     display: block;
 }
 
-/* 画像のフォールバック */
+/* 画像のフォールバック削除 */
 .hero-photo {
-    background-color: #f0f0f0;
-    border: 2px dashed #ccc;
-    min-height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-photo:before {
-    content: "画像読み込み中...";
+    background: transparent;
+    border: none;
+    min-height: auto;
     display: block;
-    text-align: center;
-    padding: 20px;
-    color: #666;
 }
 
 /* ロゴの表示修正 */
@@ -118,9 +108,9 @@ img {
     max-width: 400px;
     height: 300px;
     object-fit: cover;
-    display: block !important;
-    background: #f0f0f0;
-    border: 2px solid #ddd;
+    display: block;
+    background: transparent;
+    border: none;
 }
 
 .logo-image,
