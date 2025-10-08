@@ -100,7 +100,15 @@ img {
 }
 
 .culture-photo {
-    display: none !important;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    background: transparent;
+    border: none;
 }
 
 /* ロゴ画像を完全に非表示 */
