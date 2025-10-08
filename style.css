@@ -88,13 +88,10 @@ img {
     object-fit: cover;
 }
 
-/* ロゴの表示修正 */
+/* ロゴの表示修正 - 完全削除 */
 .logo-image,
 .footer-logo-image {
-    background: transparent;
-    border: none;
-    min-height: auto;
-    display: block;
+    display: none !important;
 }
 
 .hero-photo {
@@ -109,14 +106,17 @@ img {
     max-width: 400px;
     height: 300px;
     object-fit: cover;
-    display: block;
+    display: block !important;
     background: transparent;
     border: none;
 }
 
+/* ロゴ画像を完全に非表示 */
 .logo-image,
 .footer-logo-image {
-    filter: drop-shadow(2px 2px 4px rgba(255, 105, 180, 0.3));
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
 }
 
 .nav {
