@@ -74,19 +74,45 @@ body::before {
 img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
-img[src*="president"] {
+/* 画像のフォールバック */
+.hero-photo,
+.culture-photo,
+.logo-image,
+.footer-logo-image {
+    background-color: #f0f0f0;
+    border: 2px dashed #ccc;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-photo:before,
+.culture-photo:before,
+.logo-image:before,
+.footer-logo-image:before {
+    content: "画像読み込み中...";
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+.hero-photo {
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
-img[src*="members"] {
+.culture-photo {
     border-radius: 20px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
-img[src*="logo"] {
+.logo-image,
+.footer-logo-image {
     filter: drop-shadow(2px 2px 4px rgba(255, 105, 180, 0.3));
 }
 
@@ -877,6 +903,7 @@ img[src*="logo"] {
     height: 40px;
     margin-right: 10px;
     object-fit: contain;
+    display: block;
 }
 
 .footer-info {
