@@ -77,14 +77,20 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+    background: transparent;
+    border: none;
 }
 
-/* 画像のフォールバック削除 */
+/* 画像の表示を確実にする */
 .hero-photo {
     background: transparent;
     border: none;
     min-height: auto;
     display: block;
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    object-fit: cover;
 }
 
 /* ロゴの表示修正 */
