@@ -70,6 +70,8 @@ body::before {
     display: block;
     max-width: 40px;
     max-height: 40px;
+    background: transparent;
+    border: none;
 }
 
 /* 画像の読み込みエラー対策 */
@@ -914,6 +916,8 @@ img {
     display: block;
     max-width: 40px;
     max-height: 40px;
+    background: transparent;
+    border: none;
 }
 
 .footer-info {
