@@ -67,6 +67,27 @@ body::before {
     height: 40px;
     margin-right: 10px;
     object-fit: contain;
+    display: block;
+}
+
+/* 画像の読み込みエラー対策 */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img[src*="松岡理事長"] {
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+img[src*="メンバー"] {
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+img[src*="ロゴ"] {
+    filter: drop-shadow(2px 2px 4px rgba(255, 105, 180, 0.3));
 }
 
 .nav {
