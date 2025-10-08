@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>医療法人百花繚乱 - 歯科ドクター採用</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/ロゴ.png" alt="医療法人百花繚乱ロゴ" class="logo-image">
+                <span>医療法人百花繚乱</span>
+            </div>
+            <nav class="nav">
+                <a href="#benefits">福利厚生</a>
+                <a href="#culture">企業文化</a>
+                <a href="#contact">お問い合わせ</a>
+            </nav>
+            <!-- モバイル用ハンバーガーメニュー -->
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- モバイル用メニュー -->
+        <div class="mobile-menu">
+            <a href="#benefits">福利厚生</a>
+            <a href="#culture">企業文化</a>
+            <a href="#contact">お問い合わせ</a>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="highlight">理想の歯科医師生活</span><br>
+                    ここから始まります
+                </h1>
+                <p class="hero-subtitle">
+                    大阪5院・名古屋1院・兵庫県開業予定<br>
+                    年間休日151日・年収最大2,400万円
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        今すぐ応募する
+                    </a>
+                    <a href="#benefits" class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        詳細を見る
+                    </a>
+                </div>
+                <!-- 公式HPリンク -->
+                <div class="hp-link-section">
+                    <a href="https://www.medcorp-hyakkaryoran.com" target="_blank" class="btn btn-hp">
+                        <i class="fas fa-globe"></i>
+                        もっと知りたい方はこちら
+                    </a>
+                    <p class="hp-description">公式ホームページで詳しい情報をチェック</p>
+                </div>
+                <!-- クイックナビゲーション -->
+                <div class="quick-nav">
+                    <a href="#problems" class="quick-nav-item">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <span>お悩み</span>
+                    </a>
+                    <a href="#solutions" class="quick-nav-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>解決策</span>
+                    </a>
+                    <a href="#benefits" class="quick-nav-item">
+                        <i class="fas fa-gift"></i>
+                        <span>福利厚生</span>
+                    </a>
+                    <a href="#contact" class="quick-nav-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>お問い合わせ</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/松岡理事長.png" alt="松岡理事長の写真" class="hero-photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- お悩みセクション -->
+    <section id="problems" class="problems">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-exclamation-triangle"></i>
+                こんなお悩みありませんか？
+            </h2>
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-calendar-times"></i>
+                    </div>
+                    <h3>休日が取れない</h3>
+                    <p>休日が少なく、プライベートな時間が確保できない</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>勉強会費用の負担</h3>
+                    <p>外部の勉強会費用が自己負担で経済的に厳しい</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>成長環境がない</h3>
+                    <p>スキルアップできる環境や指導者がいない</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>強制的な応援</h3>
+                    <p>治療の応援を強制的に行かされる</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <h3>育休・介護休暇</h3>
+                    <p>育休や介護休暇を取らせてもらえない</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>開業の不安</h3>
+                    <p>将来の開業について不安がある</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 解決策セクション -->
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-check-circle"></i>
+                医療法人百花繚乱ならすべて解決！
+            </h2>
+            <div class="solutions-content">
+                <div class="solution-item">
+                    <div class="solution-header">
+                        <i class="fas fa-calendar-check"></i>
+                        <h3>充実の休日制度</h3>
+                    </div>
+                    <div class="solution-details">
+                        <div class="detail-item">
+                            <span class="detail-label">勤務医</span>
+                            <span class="detail-value">年間休日151日</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">院長</span>
+                            <span class="detail-value">120日以上（ハワイ長期休暇も可能）</span>
+                        </div>
+                        <p class="detail-note">※一般的な歯科院は多くても120日</p>
+                    </div>
+                </div>
+
+                <div class="solution-item">
+                    <div class="solution-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>勉強会費用全額負担</h3>
+                    </div>
+                    <div class="solution-details">
+                        <div class="detail-highlight">
+                            <span class="highlight-text">1年以上勤務で</span>
+                            <span class="highlight-value">上限なし・縛りなし</span>
+                        </div>
+                        <p class="detail-note">受けたい研修を受け放題！</p>
+                    </div>
+                </div>
+
+                <div class="solution-item">
+                    <div class="solution-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>充実の成長環境</h3>
+                    </div>
+                    <div class="solution-details">
+                        <ul class="detail-list">
+                            <li>法人内月1勉強会</li>
+                            <li>マニュアル完備で1年以内に保険診療完璧</li>
+                            <li>院長による直接指導</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="solution-item">
+                    <div class="solution-header">
+                        <i class="fas fa-handshake"></i>
+                        <h3>応援は合意の上</h3>
+                    </div>
+                    <div class="solution-details">
+                        <p class="detail-text">基本的に合意の上で応援</p>
+                        <p class="detail-text">難しい場合は派遣の先生に依頼</p>
+                        <p class="detail-highlight">休日出勤なし！</p>
+                    </div>
+                </div>
+
+                <div class="solution-item">
+                    <div class="solution-header">
+                        <i class="fas fa-baby"></i>
+                        <h3>育休・介護休暇実績多数</h3>
+                    </div>
+                    <div class="solution-details">
+                        <p class="detail-text">ご希望があればしっかりと取得可能</p>
+                        <p class="detail-highlight">実績多数！</p>
+                    </div>
+                </div>
+
+                <div class="solution-item">
+                    <div class="solution-header">
+                        <i class="fas fa-building"></i>
+                        <h3>開業支援</h3>
+                    </div>
+                    <div class="solution-details">
+                        <p class="detail-text">理事長松岡の10年での安定経営ノウハウ</p>
+                        <p class="detail-text">法人内で開業勉強会も実施</p>
+                        <p class="detail-highlight">勉強機会多数！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 福利厚生セクション -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-gift"></i>
+                充実の福利厚生
+            </h2>
+            <div class="benefits-grid">
+                <div class="benefit-card highlight-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3>引越し手当</h3>
+                    <div class="benefit-details">
+                        <div class="salary-item">
+                            <span class="salary-label">院長候補</span>
+                            <span class="salary-value">最大50万円</span>
+                        </div>
+                        <div class="salary-item">
+                            <span class="salary-label">勤務医</span>
+                            <span class="salary-value">最大30万円</span>
+                        </div>
+                        <p class="benefit-note">敷金礼金含む</p>
+                    </div>
+                </div>
+
+                <div class="benefit-card highlight-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-yen-sign"></i>
+                    </div>
+                    <h3>年収</h3>
+                    <div class="benefit-details">
+                        <div class="salary-item">
+                            <span class="salary-label">院長</span>
+                            <span class="salary-value">1,200万円〜2,400万円</span>
+                        </div>
+                        <div class="salary-item">
+                            <span class="salary-label">勤務医</span>
+                            <span class="salary-value">月給50万円〜120万円</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>年間休日</h3>
+                    <p class="benefit-value">151日</p>
+                    <p class="benefit-note">勤務医</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>勉強会費用</h3>
+                    <p class="benefit-value">全額負担</p>
+                    <p class="benefit-note">上限なし・縛りなし</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>育休・介護休暇</h3>
+                    <p class="benefit-value">取得可能</p>
+                    <p class="benefit-note">実績多数</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>研修制度</h3>
+                    <p class="benefit-value">充実</p>
+                    <p class="benefit-note">月1勉強会・直接指導</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 企業文化セクション -->
+    <section id="culture" class="culture">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-heart"></i>
+                医療法人百花繚乱の特徴
+            </h2>
+            <div class="culture-content">
+                <div class="culture-main">
+                    <h3 class="culture-title">三方よしの考え方</h3>
+                    <p class="culture-description">
+                        オンとオフを切り替え、休息する時はしっかりと休息、働く時はしっかりと働くをモットーにしています。
+                    </p>
+                    <div class="culture-features">
+                        <div class="feature-item">
+                            <i class="fas fa-smile"></i>
+                            <span>裁量権が大きく伸び伸び働ける</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-comments"></i>
+                            <span>怒る文化がない</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>どうすればもっと良くなるだろう？</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="culture-image">
+                    <img src="images/メンバー.jpg" alt="メンバーの写真" class="culture-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- お問い合わせセクション -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-envelope"></i>
+                お問い合わせ
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>ご興味ございましたら、お気軽にお問い合わせください</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>ihr.d.kobayashi@hyakka-ryo.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-user"></i>
+                            <span>人事担当</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <a href="mailto:ihr.d.kobayashi@hyakka-ryo.com" class="btn btn-primary btn-large">
+                        <i class="fas fa-envelope"></i>
+                        今すぐ応募する
+                    </a>
+                    <!-- 公式HPリンク -->
+                    <div class="contact-hp-section">
+                        <a href="https://www.medcorp-hyakkaryoran.com" target="_blank" class="btn btn-hp btn-large">
+                            <i class="fas fa-globe"></i>
+                            もっと知りたい方はこちら
+                        </a>
+                        <p class="contact-hp-description">公式ホームページで詳しい情報をチェック</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/ロゴ.png" alt="医療法人百花繚乱ロゴ" class="footer-logo-image">
+                    <span>医療法人百花繚乱</span>
+                </div>
+                <div class="footer-info">
+                    <p>大阪5院・名古屋1院・兵庫県開業予定</p>
+                    <p>訪問診療：大阪ほぼ全域カバー</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
