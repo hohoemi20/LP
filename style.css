@@ -101,6 +101,14 @@ img {
 
 .culture-photo {
     display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    overflow: hidden !important;
 }
 
 /* ロゴ画像を完全に非表示 */
@@ -340,13 +348,15 @@ img {
 }
 
 .culture-photo {
-    width: 100%;
-    max-width: 400px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 20px;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-    border: 3px solid rgba(255, 255, 255, 0.3);
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    overflow: hidden !important;
 }
 
 /* クイックナビゲーション */
@@ -986,8 +996,15 @@ img {
     }
     
     .culture-photo {
-        max-width: 250px;
-        height: 200px;
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        width: 0 !important;
+        height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: none !important;
+        overflow: hidden !important;
     }
     
     /* お悩みセクション - 2x3グリッド */
@@ -1408,8 +1425,15 @@ img {
     }
     
     .culture-photo {
-        max-width: 200px;
-        height: 150px;
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        width: 0 !important;
+        height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: none !important;
+        overflow: hidden !important;
     }
     
     /* さらにセクション間の余白を調整 */
