@@ -76,17 +76,17 @@ img {
     height: auto;
 }
 
-img[src*="松岡理事長"] {
+img[src*="president"] {
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
-img[src*="メンバー"] {
+img[src*="members"] {
     border-radius: 20px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
-img[src*="ロゴ"] {
+img[src*="logo"] {
     filter: drop-shadow(2px 2px 4px rgba(255, 105, 180, 0.3));
 }
 
