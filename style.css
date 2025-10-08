@@ -68,6 +68,8 @@ body::before {
     margin-right: 10px;
     object-fit: contain;
     display: block;
+    max-width: 40px;
+    max-height: 40px;
 }
 
 /* 画像の読み込みエラー対策 */
@@ -78,10 +80,7 @@ img {
 }
 
 /* 画像のフォールバック */
-.hero-photo,
-.culture-photo,
-.logo-image,
-.footer-logo-image {
+.hero-photo {
     background-color: #f0f0f0;
     border: 2px dashed #ccc;
     min-height: 200px;
@@ -90,15 +89,21 @@ img {
     justify-content: center;
 }
 
-.hero-photo:before,
-.culture-photo:before,
-.logo-image:before,
-.footer-logo-image:before {
+.hero-photo:before {
     content: "画像読み込み中...";
     display: block;
     text-align: center;
     padding: 20px;
     color: #666;
+}
+
+/* ロゴの表示修正 */
+.logo-image,
+.footer-logo-image {
+    background: transparent;
+    border: none;
+    min-height: auto;
+    display: block;
 }
 
 .hero-photo {
@@ -109,6 +114,13 @@ img {
 .culture-photo {
     border-radius: 20px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    display: block !important;
+    background: #f0f0f0;
+    border: 2px solid #ddd;
 }
 
 .logo-image,
@@ -904,6 +916,8 @@ img {
     margin-right: 10px;
     object-fit: contain;
     display: block;
+    max-width: 40px;
+    max-height: 40px;
 }
 
 .footer-info {
